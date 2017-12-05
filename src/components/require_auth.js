@@ -2,6 +2,7 @@ import React , {Component} from 'react';
 import {connect} from 'react-redux';
 
 
+//HOC
 export default function(ComposedComponent) {
   class Authentication extends Component {
 
